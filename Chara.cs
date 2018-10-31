@@ -8,8 +8,8 @@ namespace TextRPG
 {
     public class Chara
     {
-        int HP;
-        int MP;
-        int 
+        public int HP;
+        public int MP;
+        public int Attack;
     }
 }

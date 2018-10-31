@@ -8,6 +8,9 @@ namespace TextRPG
 {
     public class Action
     {
+        public void ActionPattern(Chara first, Chara second)
+        {
 
+        }
     }
 }

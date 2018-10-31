@@ -8,5 +8,11 @@ namespace TextRPG
 {
     public class Player:Chara
     {
+        public Player(int level)
+        {
+            HP = level * 10 + 100;
+        }
+
+        
     }
 }

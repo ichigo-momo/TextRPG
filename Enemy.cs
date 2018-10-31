@@ -8,6 +8,9 @@ namespace TextRPG
 {
     public class Enemy:Chara
     {
-
+        public Enemy(int level)
+        {
+            HP = level * 10 + 100;
+        }
     }
 }
