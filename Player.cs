@@ -10,8 +10,10 @@ namespace TextRPG
     {
         public Player(int level)
         {
+            Level = level;
             HP = level * 10 + 100;
             Attack = level + 10;
+            Defense = 10;
         }
 
         
