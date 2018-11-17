@@ -11,6 +11,7 @@ namespace TextRPG
         public Enemy(int level)
         {
             HP = level * 10 + 100;
+            Attack = level + 10;
         }
     }
 }

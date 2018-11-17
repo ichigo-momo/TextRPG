@@ -8,9 +8,9 @@ namespace TextRPG
 {
     public class Attack:Action
     {
-        public void ActionPattern(Chara first, Chara second)
+        public override void ActionPattern(Chara first, Chara second)
         {
-
+            second.HP -= first.Attack;
         }
     }
 }
