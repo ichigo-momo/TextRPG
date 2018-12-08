@@ -11,6 +11,10 @@ namespace TextRPG
         static void Main(string[] args)
         {
 
+            Console.WriteLine("momo momo momo" + "\r\n" + "momo");
+            Console.ReadLine();
+
+
 
         }
     }
